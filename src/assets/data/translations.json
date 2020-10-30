@@ -1,0 +1,30 @@
+{
+  "ru": {
+    "siteName": "Knopa",
+    "logoText": "Animation Studio",
+    "order": "Заказать",
+    "creatives": "креативы ",
+    "logo": "лого ",
+    "2D presentations": "2D презентации",
+    "3D presentations": "3D презентации",
+    "other": "другое",
+    "profitAnimations": "АНИМАЦИИ КОТОРЫЕ ПРИНОСЯТ ПРИБЫЛЬ",
+    "weStudio": "Мы - студия анимации",
+    "createVideoCreative": "создадим видео-креатив",
+    "fast": "быстро"
+  },
+  "en": {
+    "siteName": "Knopa",
+    "logoText": "Animation Studio",
+    "order": "Order",
+    "creatives": "creatives",
+    "logo": "logo",
+    "2D presentations": "2D presentations",
+    "3D presentations": "3D presentations",
+    "other": "other",
+    "profitAnimations": "ANIMATIONS THAT MAKE PROFITS",
+    "weStudio": "We are animation studio",
+    "createVideoCreative": "create video-creative",
+    "fast": "fast"
+  }
+}
