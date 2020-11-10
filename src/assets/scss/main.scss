@@ -9,11 +9,13 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  background-image: url("/img/bg.jpg");
 }
 
 .container {
   width: 1110px;
   margin: 0 auto;
+  position: relative;
   &.wide {
     width: 1280px;
   }

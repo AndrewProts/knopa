@@ -1,4 +1,4 @@
-import translations from "../assets/data/translations";
+import translations from "../../public/data/translations";
 
 export default {
   install(Vue) {

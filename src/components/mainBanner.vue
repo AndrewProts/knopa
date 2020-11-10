@@ -16,7 +16,7 @@
           {{ $t("fast") }}
         </div>
       </div>
-      <div class="button">Заказать видео</div>
+      <div class="button">{{ $t("orderVideo") }}</div>
     </div>
   </div>
 </template>
