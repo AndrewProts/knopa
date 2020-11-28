@@ -51,6 +51,7 @@
     "hasQuestions": "Остались вопросы?",
     "faqText": "Благодаря анимации аудитория более склонна\n к покупкам. Вы им уже нравитесь",
     "contactUs": "Свяжитесь с нами",
+    "contactUs1": "Связатся с нами",
     "contactText": "Дикторская озвучка, написание сценария и детальная\nраскадровка. Каждый этап утверждается с Вами",
     "callUs": "Позвоните нам",
     "mailUs": "Напишите нам",
@@ -60,7 +61,15 @@
     "phoneNumber": "Номер телефона",
     "message": "Сообщение",
     "orderConsultation": "Заказать Консультацию",
-    "responseText": "Спасибо!\nМы свяжемся с вами в ближайшее время"
+    "responseText": "Спасибо!\nМы свяжемся с вами в ближайшее время",
+    "watchVideoAboutUs": "Смотреть\nвидео о нас",
+    "WhatIncluded": "Что входит в цену одного видео?",
+    "scriptWriting": "Написание\nсценария",
+    "whatAboutPrice": "А что по цене?",
+    "accountCreative": "Креатив для аккаунтов",
+    "appCreative": "Креатив для приложений",
+    "videoSet": "Набор видео",
+    "sale": "Скидка"
   },
   "en": {
     "siteName": "Knopa",
@@ -114,6 +123,7 @@
     "hasQuestions": "Still have questions?",
     "faqText": "Animation makes the audience more inclined\nto shopping. They already like you",
     "contactUs": "Contact us",
+    "contactUs1": "Contact us",
     "contactText": "Voiceover, script writing and detailed\nstoryboarding. Each stage is approved with you",
     "callUs": "Call us",
     "mailUs": "Mail us",
@@ -123,6 +133,14 @@
     "phoneNumber": "Phone number",
     "message": "Message",
     "orderConsultation": "Order Consultation",
-    "responseText": "Thank you!\nWe will contact you shortly"
+    "responseText": "Thank you!\nWe will contact you shortly",
+    "watchVideoAboutUs": "Watch\nvideo about us",
+    "WhatIncluded": "What's included in the price of one video?",
+    "scriptWriting": "Script\nwriting",
+    "whatAboutPrice": "And what about the price?",
+    "accountCreative": "Account creative",
+    "appCreative": "App creative",
+    "videoSet": "Video set",
+    "sale": "Sale"
   }
 }

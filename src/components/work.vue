@@ -70,7 +70,7 @@
     color: $gray;
     font-size: 14px;
     line-height: 160%;
-    margin-bottom: 7px;
+    margin-bottom: 40px;
     white-space: pre-wrap;
   }
   .col {

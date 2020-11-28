@@ -1,6 +1,25 @@
 {
   "phone": "+389 403 349 34",
-  "email": "prozandrey13@gmail.com",
+  "email": "knopa@gmail.com",
   "instagram": "https://www.instagram.com/",
-  "facebook": "https://www.facebook.com/"
+  "facebook": "https://www.facebook.com/",
+  "youtube": "https://www.youtube.com/",
+  "vimeo": "https://vimeo.com/",
+  "telegram": "http://telegram.me/",
+  "whatsapp": "https://www.whatsapp.com/",
+  "viber": "https://www.viber.com/",
+  "aboutUsVideo": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg",
+  "aboutUsImg": "/img/yarek/3.jpg",
+  "briefUrl": "https://www.youtube.com/",
+  "creatives": {
+    "accountCreativePrice": "235$",
+    "accountCreativeBrief": "https://www.youtube.com",
+    "accountCreativeVideo": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg",
+    "appCreativePrice": "300$",
+    "appCreativeBrief": "https://www.youtube.com",
+    "appCreativeVideo": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg",
+    "videoSetNumber": 30,
+    "videoSetPercent": "10%"
+  }
+
 }

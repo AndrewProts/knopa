@@ -1,11 +1,14 @@
 <template>
-  <div class="header">
+  <div class="vueFooter">
     <div class="container wide">
       <div class="logo">
         <div>{{ $t("siteName") }}</div>
         <div>{{ $t("logoText") }}o</div>
       </div>
-      <div class="side">
+      <div class="links">
+        <div class="link">{{ $t("creatives") }}</div>
+        <div class="link">{{ $t("2D presentations") }}</div>
+        <div class="link">{{ $t("other") }}</div>
         <div class="lang">
           <a href="/ru" @click.prevent="changeLanguage('ru')">Rus</a>
           <span>/</span>
@@ -18,11 +21,8 @@
 </template>
 
 <script>
-import { mapMutations } from "vuex";
-
 export default {
   methods: {
-    ...mapMutations(["incrementUpdateKey"]),
     changeLanguage(lang) {
       if (lang === this.$route.params.lang) return;
       this.$router.push({
@@ -38,12 +38,36 @@ export default {
 </script>
 
 <style lang="scss">
-.header {
-  width: 100%;
-  height: 112px;
-  border-bottom: 1px solid rgba(21, 21, 21, 0.26);
+.vueFooter {
   display: flex;
-  align-items: center;
+  align-content: center;
+  height: 170px;
+  border-top: 1px solid rgba(21, 21, 21, 0.26);
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+  .links {
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+  .logo {
+    font-weight: 800;
+    font-size: 21px;
+    color: $blue;
+    line-height: 26px;
+  }
+  .link {
+    color: $gray;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 60px;
+    cursor: pointer;
+  }
   .lang {
     margin-right: 50px;
     font-size: 14px;
@@ -59,22 +83,6 @@ export default {
         color: $blue;
       }
     }
-  }
-  .logo {
-    font-weight: 800;
-    font-size: 21px;
-    color: $blue;
-    line-height: 26px;
-  }
-  .side {
-    display: flex;
-    align-items: center;
-  }
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
   }
 }
 </style>

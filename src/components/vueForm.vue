@@ -6,50 +6,63 @@
         <div class="text">{{ $t("contactText") }}</div>
         <div class="contacts">
           <div class="item">
-            <div>{{ $t("callUs") }}</div>
-            <a :href="'tel:' + config.phone">{{ config.phone }}</a>
+            <div>{{ $t("mailUs") }}</div>
+            <a :href="'mailto:' + config.email">
+              <icon-mail></icon-mail>
+              {{ config.email }}
+            </a>
           </div>
           <div class="item">
-            <div>{{ $t("mailUs") }}</div>
-            <a :href="'mailto:' + config.email">{{ config.email }}</a>
+            <div>{{ $t("weInSocials") }}</div>
+            <div class="socialLinks">
+              <a v-if="config.youtube" :href="config.youtube" target="_blank">
+                <icon-youtube></icon-youtube>
+              </a>
+              <a v-if="config.vimeo" :href="config.vimeo" target="_blank">
+                <icon-vimeo></icon-vimeo>
+              </a>
+              <a v-if="config.instagram" :href="config.instagram" target="_blank">
+                <icon-instagram></icon-instagram>
+              </a>
+            </div>
           </div>
         </div>
         <div class="socials">
-          <div>{{ $t("weInSocials") }}</div>
-          <a :href="config.facebook" target="_blank">
+          <a v-if="config.facebook" :href="config.facebook" target="_blank">
             <icon-facebook></icon-facebook>
           </a>
-          <a :href="config.instagram" target="_blank">
-            <icon-instagram></icon-instagram>
+          <a v-if="config.telegram" :href="config.telegram" target="_blank">
+            <icon-telegram></icon-telegram>
+          </a>
+          <a v-if="config.whatsapp" :href="config.whatsapp" target="_blank">
+            <icon-watsup></icon-watsup>
+          </a>
+          <a v-if="config.viber" :href="config.viber" target="_blank">
+            <icon-viber></icon-viber>
           </a>
         </div>
-        <div class="button outline">{{ $t("fillBrief") }}</div>
+        <a :href="config.briefUrl" target="_blank">
+          <div class="button outline">{{ $t("fillBrief") }}</div>
+        </a>
       </div>
       <div class="right">
-        <form v-if="!isSend" action="#" @submit="send">
-          <div class="input">
-            <div>{{ $t("howCallYou") }}</div>
-            <input v-model="name" type="text" />
-          </div>
-          <div class="input">
-            <div>{{ $t("phoneNumber") }}</div>
-            <input v-model="phone" type="text" />
-          </div>
-          <div class="input">
-            <div>{{ $t("message") }}</div>
-            <input v-model="message" type="text" />
-          </div>
-          <div class="button" @click="send">{{ $t("orderConsultation") }}</div>
-        </form>
-        <div v-else class="sendText">{{ $t("responseText") }}</div>
+        <div class="img" @click="$refs.videoModal.open(config.aboutUsVideo)">
+          <img :src="config.aboutUsImg" alt="aboutVideo" />
+          <div class="circle">{{ $t("watchVideoAboutUs") }}</div>
+        </div>
       </div>
     </div>
+    <video-modal ref="videoModal"></video-modal>
   </div>
 </template>
 
 <script>
 import config from "../../public/data/config";
+import videoModal from "./videoModal";
 export default {
+  components: {
+    videoModal,
+  },
   data() {
     return {
       config: config,
@@ -141,11 +154,24 @@ export default {
     line-height: 145%;
     display: flex;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 63px;
+    margin: 30px 0;
     a {
-      margin-left: 26px;
+      margin-right: 16px;
     }
+  }
+  svg {
+    &:hover {
+      path {
+        fill: $blue;
+      }
+    }
+    path {
+      transition: 0.3s ease-in-out;
+    }
+  }
+  .socialLinks {
+    display: flex;
+    align-content: center;
   }
   .title {
     font-weight: bold;
@@ -154,13 +180,51 @@ export default {
     margin-bottom: 26px;
   }
   .left {
-    padding-top: 60px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
   .right {
     width: 531px;
+    position: relative;
+    .img {
+      width: 628px;
+      height: 425px;
+      position: relative;
+      cursor: pointer;
+      &:hover {
+        .circle {
+          transform: translate(-50%, -50%) scale(1);
+        }
+      }
+      .circle {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background-color: white;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        transform: translate(-50%, -50%) scale(0);
+        transition: 0.3s ease-in-out;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: $blue;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
   }
   .text {
     white-space: pre-wrap;
@@ -170,10 +234,13 @@ export default {
   }
   .contacts {
     display: flex;
-    padding-top: 40px;
+    padding-top: 30px;
     .item {
       display: flex;
       flex-direction: column;
+      svg {
+        margin-right: 10px;
+      }
       div {
         font-weight: bold;
         font-size: 16px;
@@ -184,6 +251,10 @@ export default {
         font-size: 14px;
         line-height: 160%;
         user-select: text;
+        display: flex;
+        align-content: center;
+        text-decoration: underline;
+        align-items: center;
       }
       & + .item {
         margin-left: 46px;

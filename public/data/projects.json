@@ -1,85 +1,110 @@
-[
-  {
-    "categoryName": "creatives",
-    "projects": [
-      {
-        "name": "someName",
-        "description": "someDescription",
-        "previewImg": "https://wonder-day.com/wp-content/uploads/2020/03/wonder-day-peely-fortnite-35-1024x576.jpg",
-        "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-      },
-      {
-        "name": "someName",
-        "description": "someDescription",
-        "previewImg": "https://wonder-day.com/wp-content/uploads/2020/03/wonder-day-peely-fortnite-35-1024x576.jpg",
-        "videoUrl": "https://www.youtube.com/embed/59o-h3xvva8"
-      },
-      {
-        "name": "someName",
-        "description": "someDescription",
-        "previewImg": "https://wonder-day.com/wp-content/uploads/2020/03/wonder-day-peely-fortnite-35-1024x576.jpg",
-        "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-      },
-      {
-        "name": "someName",
-        "description": "someDescription",
-        "previewImg": "https://wonder-day.com/wp-content/uploads/2020/03/wonder-day-peely-fortnite-35-1024x576.jpg",
-        "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-      },
-      {
-        "name": "someName",
-        "description": "someDescription",
-        "previewImg": "https://wonder-day.com/wp-content/uploads/2020/03/wonder-day-peely-fortnite-35-1024x576.jpg",
-        "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-      },
-      {
-        "name": "someName",
-        "description": "someDescription",
-        "previewImg": "https://wonder-day.com/wp-content/uploads/2020/03/wonder-day-peely-fortnite-35-1024x576.jpg",
-        "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-      },
-      {
-        "name": "someName",
-        "description": "someDescription",
-        "previewImg": "https://wonder-day.com/wp-content/uploads/2020/03/wonder-day-peely-fortnite-35-1024x576.jpg",
-        "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-      }
-    ]
-  },
-  {
-    "categoryName": "logo",
-    "projects": [
-      {
-        "name": "someName",
-        "description": "someDescription",
-        "previewImg": "https://wonder-day.com/wp-content/uploads/2020/03/wonder-day-peely-fortnite-35-1024x576.jpg",
-        "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-      },
-      {
-        "name": "someName",
-        "description": "someDescription",
-        "previewImg": "https://wonder-day.com/wp-content/uploads/2020/03/wonder-day-peely-fortnite-35-1024x576.jpg",
-        "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-      }
-    ]
-  },
-  {
-    "categoryName": "2D presentations",
-    "projects": [
-      {
-        "name": "someName",
-        "description": "someDescription",
-        "previewImg": "https://wonder-day.com/wp-content/uploads/2020/03/wonder-day-peely-fortnite-35-1024x576.jpg",
-        "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-      }
-    ]
-  },
-  {
-    "categoryName": "3D presentations",
-    "projects": []
-  },
-  {
-    "categoryName": "other",
-    "projects": []
-  }
-]
+{
+  "2dPresentations": [
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "https://wonder-day.com/wp-content/uploads/2020/03/wonder-day-peely-fortnite-35-1024x576.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    }
+  ],
+  "creatives": [
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    }
+  ],
+  "3dPresentations": [
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "https://wonder-day.com/wp-content/uploads/2020/03/wonder-day-peely-fortnite-35-1024x576.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    }
+  ],
+  "other": [
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "contactLink": "https://rt.pornhub.com/",
+      "previewImg": "/img/yarek/1.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "contactLink": "https://rt.pornhub.com/",
+      "previewImg": "/img/yarek/1.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "contactLink": "https://rt.pornhub.com/",
+      "previewImg": "/img/yarek/1.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "contactLink": "https://rt.pornhub.com/",
+      "previewImg": "/img/yarek/1.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    }
+  ]
+}

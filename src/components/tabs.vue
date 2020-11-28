@@ -2,13 +2,17 @@
   <div class="tabsWrap">
     <div class="tabs">
       <div class="container">
-        <div
-          v-for="(project, i) in projects"
-          :key="i"
-          class="tab"
-          @click="setLine(i)"
-        >
-          {{ $t(project.categoryName) }}
+        <div class="tab" @click="setLine(0, 'Home')">
+          {{ $t("2D presentations") }}
+        </div>
+        <div class="tab" @click="setLine(1, 'Presentations3d')">
+          {{ $t("3D presentations") }}
+        </div>
+        <div class="tab" @click="setLine(2, 'Creatives')">
+          {{ $t("creatives") }}
+        </div>
+        <div class="tab" @click="setLine(3, 'Other')">
+          {{ $t("other") }}
         </div>
       </div>
       <div
@@ -17,25 +21,10 @@
         :style="{ left: lineOffset + 'px', width: lineWidth + 'px' }"
       ></div>
     </div>
-    <div class="container">
-      <div class="top">
-        <div>{{ $t("completedProjects") }}</div>
-        <div class="arrows">
-          <div class="arrow disable" @click="prev">
-            <icon-arrow></icon-arrow>
-          </div>
-          <div class="arrow" @click="next">
-            <icon-arrow></icon-arrow>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
 <script>
-import projects from "../../../public/data/projects";
-
 export default {
   props: {
     value: {
@@ -45,42 +34,51 @@ export default {
   },
   data() {
     return {
-      projects: projects,
       lineOffset: 0,
       lineWidth: 0,
       lineOffsetWidth: 24,
       mounted: false,
-      activeSection: 0,
     };
   },
   methods: {
-    next() {
-      if (this.activeSection >= this.projects.length - 1) {
-        return;
-      }
-      this.setLine(this.activeSection + 1);
-    },
-    prev() {
-      if (this.activeSection <= 0) {
-        return;
-      }
-      this.setLine(this.activeSection - 1);
-    },
-    setLine(i) {
-      this.activeSection = i;
-      this.$emit("input", this.activeSection);
+    setLine(i, route) {
       this.lineOffset =
         document.getElementsByClassName("tab")[i].getBoundingClientRect().x -
         this.lineOffsetWidth / 2;
       this.lineWidth =
         document.getElementsByClassName("tab")[i].offsetWidth +
         this.lineOffsetWidth;
+      this.$router.push({
+        name: route,
+        params: { lang: this.$route.params.lang },
+      });
     },
   },
   mounted() {
-    this.setLine(0);
+    let i = 0;
+    if (this.$route.name === 'Creatives') i = 2;
+    if (this.$route.name === 'Presentations3d') i = 1;
+    if (this.$route.name === 'Other') i = 3;
+    this.lineOffset =
+      document.getElementsByClassName("tab")[i].getBoundingClientRect().x -
+      this.lineOffsetWidth / 2;
+    this.lineWidth =
+      document.getElementsByClassName("tab")[i].offsetWidth +
+      this.lineOffsetWidth;
     setTimeout(() => {
       this.mounted = true;
+    });
+    window.addEventListener("resize", () => {
+      let i = 0;
+      if (this.$route.name === 'Creatives') i = 2;
+      if (this.$route.name === 'Presentations3d') i = 1;
+      if (this.$route.name === 'Other') i = 3;
+      this.lineOffset =
+        document.getElementsByClassName("tab")[i].getBoundingClientRect().x -
+        this.lineOffsetWidth / 2;
+      this.lineWidth =
+        document.getElementsByClassName("tab")[i].offsetWidth +
+        this.lineOffsetWidth;
     });
   },
 };
@@ -88,17 +86,7 @@ export default {
 
 <style lang="scss">
 .tabsWrap {
-  .top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 55px;
-    color: $gray;
-    margin-bottom: 18px;
-    margin-top: 140px;
-  }
+  margin-bottom: 120px;
   .arrows {
     display: flex;
     user-select: none;
@@ -149,13 +137,16 @@ export default {
     line-height: 17px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    text-transform: capitalize;
+    & + .tab {
+      margin-left: 60px;
+    }
     &:hover {
       color: $blue;
     }
   }
   .container {
     display: flex;
-    justify-content: space-between;
     position: relative;
   }
 }

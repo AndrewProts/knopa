@@ -4,8 +4,15 @@ import Vuex from "vuex";
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {},
-  mutations: {},
+  state: {
+    updateKey: 0,
+  },
+  mutations: {
+    incrementUpdateKey: (state) => state.updateKey++,
+  },
   actions: {},
-  modules: {}
+  modules: {},
+  getters: {
+    getUpdateKey: (state) => state.updateKey,
+  },
 });
