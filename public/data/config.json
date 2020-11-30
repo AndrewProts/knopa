@@ -20,6 +20,28 @@
     "appCreativeVideo": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg",
     "videoSetNumber": 30,
     "videoSetPercent": "10%"
+  },
+  "3dPresentations": {
+    "howWorkGoingList": [
+      {
+        "name": "Textures",
+        "description": "sliderSubTitle"
+      },
+      {
+        "name": "Working with light",
+        "description": "sliderSubTitle"
+      },
+      {
+        "name": "Texture development",
+        "description": "sliderSubTitle"
+      },
+      {
+        "name": "Working with light",
+        "description": "sliderSubTitle"
+      }
+    ],
+    "howWorkGoingImg": "/img/yarek/3.jpg",
+    "whyNeedText": "whyNeedText"
   }
 
 }

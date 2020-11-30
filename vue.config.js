@@ -2,11 +2,11 @@ module.exports = {
   css: {
     loaderOptions: {
       sass: {
-        data: `@import "@/assets/scss/_colors.scss";`,
-      },
-    },
+        data: `@import "@/assets/scss/_colors.scss";`
+      }
+    }
   },
-  chainWebpack: (config) => {
+  chainWebpack: config => {
     config.module.rules.delete("svg");
   },
   configureWebpack: {
@@ -14,9 +14,9 @@ module.exports = {
       rules: [
         {
           test: /\.svg$/,
-          loader: "vue-svg-loader",
-        },
-      ],
-    },
-  },
+          loader: "vue-svg-loader"
+        }
+      ]
+    }
+  }
 };

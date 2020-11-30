@@ -58,19 +58,18 @@
             </a>
             <div
               class="see"
-              @click="
-                $refs.videoModal.open(config.creatives.appCreativeVideo)
-              "
+              @click="$refs.videoModal.open(config.creatives.appCreativeVideo)"
             >
               {{ $t("viewExample") }}
             </div>
           </div>
           <div class="item">
             <div class="saleCount">
-              {{$t("videoSet")}} ({{config.creatives.videoSetNumber}})
+              {{ $t("videoSet") }} ({{ config.creatives.videoSetNumber }})
             </div>
             <div class="sale">
-              {{$t("sale")}} <span>{{config.creatives.videoSetPercent}}</span>
+              {{ $t("sale") }}
+              <span>{{ config.creatives.videoSetPercent }}</span>
             </div>
           </div>
         </div>
@@ -99,14 +98,14 @@ export default {
     videoModal,
     why,
     work,
-    faq,
+    faq
   },
   data() {
     return {
       projectsData: projectsData,
       whatIncluded: whatIncluded,
       config: config,
-      showMore: false,
+      showMore: false
     };
   },
   computed: {
@@ -116,8 +115,8 @@ export default {
       } else {
         return this.projectsData.creatives.slice(0, 6);
       }
-    },
-  },
+    }
+  }
 };
 </script>
 

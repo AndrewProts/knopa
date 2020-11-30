@@ -26,14 +26,14 @@ import faq from "../../public/data/faq";
 export default {
   data() {
     return {
-      faq: faq,
+      faq: faq
     };
   },
   methods: {
     toggleQuestion($event) {
       $event.target.parentElement.parentElement.classList.toggle("open");
-    },
-  },
+    }
+  }
 };
 </script>
 

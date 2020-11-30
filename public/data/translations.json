@@ -69,7 +69,13 @@
     "accountCreative": "Креатив для аккаунтов",
     "appCreative": "Креатив для приложений",
     "videoSet": "Набор видео",
-    "sale": "Скидка"
+    "sale": "Скидка",
+    "How is the work on the video going?": "Как проходит\nработа над видео?",
+    "Textures": "Текстуры",
+    "Working with light": "Работа со светом",
+    "Texture development": "Разработка текстуры",
+    "Why do we need\nanimation presentations?": "Почему нужны\nанимационные призентации?",
+    "whyNeedText": "Знаете ли вы, как звучат мелодии бакинского двора? А где находится край света? Верите ли в Деда Мороза? Не пытались ли войти дважды в одну реку? Ну, признайтесь же: писали письма кумирам?Если это и многое другое вам интересно, книга современной писательницы Ольги Меклер не оставит вас равнодушными.\n\nАвтор более двадцати лет живет в Израиле, но попрежнему считает, что выразительнее, чем русский язык, человечество ничего так и не создало, поэтому пишет исключительно на нем. Галерея образов и ситуаций, с которыми читателю предстоит познакомиться, создана на основе реальных жизненных историй."
   },
   "en": {
     "siteName": "Knopa",
@@ -141,6 +147,7 @@
     "accountCreative": "Account creative",
     "appCreative": "App creative",
     "videoSet": "Video set",
-    "sale": "Sale"
+    "sale": "Sale",
+    "whyNeedText": "Do you know how the melodies of the Baku court sound? Where is the end of the world? Do you believe in Santa Claus? Have you tried to enter the same river twice? Well, admit it: did you write letters to idols? If this and many other things are interesting to you, the book of the modern writer Olga Mekler will not leave you indifferent.\n\nThe author has lived in Israel for more than twenty years, but still believes that mankind has never created anything more expressive than Russian, so he writes exclusively in it. The gallery of images and situations with which the reader is going to get acquainted is based on real life stories."
   }
 }

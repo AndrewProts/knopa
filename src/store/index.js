@@ -5,14 +5,14 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    updateKey: 0,
+    updateKey: 0
   },
   mutations: {
-    incrementUpdateKey: (state) => state.updateKey++,
+    incrementUpdateKey: state => state.updateKey++
   },
   actions: {},
   modules: {},
   getters: {
-    getUpdateKey: (state) => state.updateKey,
-  },
+    getUpdateKey: state => state.updateKey
+  }
 });

@@ -23,13 +23,13 @@ export default {
     work,
     cost,
     faq,
-    vueForm,
+    vueForm
   },
   data() {
     return {
-      projectsData: projectsData,
+      projectsData: projectsData
     };
-  },
+  }
 };
 </script>
 

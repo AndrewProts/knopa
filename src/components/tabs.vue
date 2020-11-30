@@ -29,15 +29,15 @@ export default {
   props: {
     value: {
       type: Number,
-      default: 0,
-    },
+      default: 0
+    }
   },
   data() {
     return {
       lineOffset: 0,
       lineWidth: 0,
       lineOffsetWidth: 24,
-      mounted: false,
+      mounted: false
     };
   },
   methods: {
@@ -50,15 +50,15 @@ export default {
         this.lineOffsetWidth;
       this.$router.push({
         name: route,
-        params: { lang: this.$route.params.lang },
+        params: { lang: this.$route.params.lang }
       });
-    },
+    }
   },
   mounted() {
     let i = 0;
-    if (this.$route.name === 'Creatives') i = 2;
-    if (this.$route.name === 'Presentations3d') i = 1;
-    if (this.$route.name === 'Other') i = 3;
+    if (this.$route.name === "Creatives") i = 2;
+    if (this.$route.name === "Presentations3d") i = 1;
+    if (this.$route.name === "Other") i = 3;
     this.lineOffset =
       document.getElementsByClassName("tab")[i].getBoundingClientRect().x -
       this.lineOffsetWidth / 2;
@@ -70,9 +70,9 @@ export default {
     });
     window.addEventListener("resize", () => {
       let i = 0;
-      if (this.$route.name === 'Creatives') i = 2;
-      if (this.$route.name === 'Presentations3d') i = 1;
-      if (this.$route.name === 'Other') i = 3;
+      if (this.$route.name === "Creatives") i = 2;
+      if (this.$route.name === "Presentations3d") i = 1;
+      if (this.$route.name === "Other") i = 3;
       this.lineOffset =
         document.getElementsByClassName("tab")[i].getBoundingClientRect().x -
         this.lineOffsetWidth / 2;
@@ -80,7 +80,7 @@ export default {
         document.getElementsByClassName("tab")[i].offsetWidth +
         this.lineOffsetWidth;
     });
-  },
+  }
 };
 </script>
 

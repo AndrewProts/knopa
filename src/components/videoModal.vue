@@ -10,7 +10,7 @@ export default {
   data() {
     return {
       opened: false,
-      video: "",
+      video: ""
     };
   },
   methods: {
@@ -20,8 +20,8 @@ export default {
     },
     close() {
       this.opened = false;
-    },
-  },
+    }
+  }
 };
 </script>
 

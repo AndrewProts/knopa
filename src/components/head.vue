@@ -28,12 +28,12 @@ export default {
       this.$router.push({
         name: this.$route.name,
         params: {
-          lang: lang,
-        },
+          lang: lang
+        }
       });
       window.location.reload();
-    },
-  },
+    }
+  }
 };
 </script>
 

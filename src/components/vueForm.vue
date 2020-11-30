@@ -21,7 +21,11 @@
               <a v-if="config.vimeo" :href="config.vimeo" target="_blank">
                 <icon-vimeo></icon-vimeo>
               </a>
-              <a v-if="config.instagram" :href="config.instagram" target="_blank">
+              <a
+                v-if="config.instagram"
+                :href="config.instagram"
+                target="_blank"
+              >
                 <icon-instagram></icon-instagram>
               </a>
             </div>
@@ -61,7 +65,7 @@ import config from "../../public/data/config";
 import videoModal from "./videoModal";
 export default {
   components: {
-    videoModal,
+    videoModal
   },
   data() {
     return {
@@ -69,7 +73,7 @@ export default {
       name: "",
       phone: "",
       message: "",
-      isSend: false,
+      isSend: false
     };
   },
   methods: {
@@ -89,10 +93,10 @@ export default {
         name: this.name,
         phone: this.phone,
         message: this.message,
-        mail: this.config.email,
+        mail: this.config.email
       });
-    },
-  },
+    }
+  }
 };
 </script>
 

@@ -37,13 +37,13 @@ export default {
   name: "Home",
   components: {
     vueForm,
-    videoModal,
+    videoModal
   },
   data() {
     return {
-      projectsData: projectsData,
+      projectsData: projectsData
     };
-  },
+  }
 };
 </script>
 

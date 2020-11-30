@@ -19,11 +19,11 @@ export default {
   components: { vueFooter, elHead, mainBanner, tabs },
   data() {
     return {
-      activeSection: 0,
+      activeSection: 0
     };
   },
   computed: {
-    ...mapGetters(["getUpdateKey"]),
-  },
+    ...mapGetters(["getUpdateKey"])
+  }
 };
 </script>
