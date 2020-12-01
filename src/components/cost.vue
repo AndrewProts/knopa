@@ -19,16 +19,25 @@
           </div>
           <div class="prices">
             <div class="price">
-              <div>15 {{ $t("seconds") }}</div>
-              <span>5.999 $</span>
+              <div>
+                {{ config["2dPresentations"].standartFirstDuration }}
+                {{ $t("seconds") }}
+              </div>
+              <span>{{ config["2dPresentations"].standartFirstCost }}</span>
             </div>
             <div class="price">
-              <div>30 {{ $t("seconds") }}</div>
-              <span>8.999 $</span>
+              <div>
+                {{ config["2dPresentations"].standartSecondDuration }}
+                {{ $t("seconds") }}
+              </div>
+              <span>{{ config["2dPresentations"].standartSecondCost }}</span>
             </div>
             <div class="price">
-              <div>60 {{ $t("seconds") }}</div>
-              <span>10 000 $</span>
+              <div>
+                {{ config["2dPresentations"].standartThirdDuration }}
+                {{ $t("seconds") }}
+              </div>
+              <span>{{ config["2dPresentations"].standartThirdCost }}</span>
             </div>
           </div>
           <div class="button">{{ $t("orderVideo") }}</div>
@@ -51,16 +60,25 @@
           </div>
           <div class="prices">
             <div class="price">
-              <div>15 {{ $t("seconds") }}</div>
-              <span>5.999 $</span>
+              <div>
+                {{ config["2dPresentations"].premiumFirstDuration }}
+                {{ $t("seconds") }}
+              </div>
+              <span>{{ config["2dPresentations"].premiumFirstCost }}</span>
             </div>
             <div class="price">
-              <div>30 {{ $t("seconds") }}</div>
-              <span>8.999 $</span>
+              <div>
+                {{ config["2dPresentations"].premiumSecondDuration }}
+                {{ $t("seconds") }}
+              </div>
+              <span>{{ config["2dPresentations"].premiumSecondCost }}</span>
             </div>
             <div class="price">
-              <div>60 {{ $t("seconds") }}</div>
-              <span>10 000 $</span>
+              <div>
+                {{ config["2dPresentations"].premiumThirdDuration }}
+                {{ $t("seconds") }}
+              </div>
+              <span>{{ config["2dPresentations"].premiumThirdCost }}</span>
             </div>
           </div>
           <div class="button">{{ $t("orderVideo") }}</div>
@@ -70,6 +88,18 @@
     </div>
   </div>
 </template>
+
+<script>
+import config from "../../public/data/config.json";
+
+export default {
+  data() {
+    return {
+      config: config
+    };
+  }
+};
+</script>
 
 <style lang="scss">
 .cost {

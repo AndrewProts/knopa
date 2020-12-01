@@ -20,6 +20,7 @@
       </div>
       <how-work></how-work>
       <why-need></why-need>
+      <price></price>
       <faq></faq>
     </div>
     <vue-form></vue-form>
@@ -34,6 +35,7 @@ import videoModal from "../../components/videoModal";
 import howWork from "./howWork";
 import faq from "@/components/faq";
 import whyNeed from "./whyNeed";
+import price from "@/views/Presentation3d/price";
 
 export default {
   name: "Home",
@@ -42,7 +44,8 @@ export default {
     videoModal,
     howWork,
     faq,
-    whyNeed
+    whyNeed,
+    price
   },
   data() {
     return {

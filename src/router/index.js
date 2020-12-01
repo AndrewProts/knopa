@@ -1,9 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+import Home from "../views/Home/Home.vue";
 import Other from "../views/Other.vue";
 import Presentations3d from "../views/Presentation3d/Presentations3d.vue";
-import Creatives from "../views/Creatives.vue";
+import Creatives from "../views/Creatives/Creatives.vue";
 
 Vue.use(VueRouter);
 

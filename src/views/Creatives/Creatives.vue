@@ -82,14 +82,14 @@
 </template>
 
 <script>
-import vueForm from "../components/vueForm";
-import projectsData from "../../public/data/projects";
-import whatIncluded from "../../public/data/whatIncluded";
-import videoModal from "../components/videoModal";
-import why from "../components/why";
-import work from "../components/work";
-import faq from "../components/faq";
-import config from "../../public/data/config";
+import vueForm from "../../components/vueForm";
+import projectsData from "../../../public/data/projects.json";
+import whatIncluded from "../../../public/data/whatIncluded.json";
+import videoModal from "../../components/videoModal";
+import why from "../../components/why";
+import work from "../../components/work";
+import faq from "../../components/faq";
+import config from "../../../public/data/config.json";
 
 export default {
   name: "Home",

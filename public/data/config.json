@@ -41,7 +41,41 @@
       }
     ],
     "howWorkGoingImg": "/img/yarek/3.jpg",
-    "whyNeedText": "whyNeedText"
+    "whyNeedText": "whyNeedText",
+    "whyNeedItems": [
+      {
+        "icon": "IconChart",
+        "text": "Increase\nsales by 3-4 times"
+      },
+      {
+        "icon": "IconChart",
+        "text": "Increase\nsales by 3-4 times"
+      },
+      {
+        "icon": "IconChart",
+        "text": "Increase\nsales by 3-4 times"
+      },
+      {
+        "icon": "IconChart",
+        "text": "Increase\nsales by 3-4 times"
+      }
+    ],
+    "priceExampleVideo": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg",
+    "priceBrief": "https://www.youtube.com",
+    "priceFrom": "5.999 $"
+  },
+  "2dPresentations": {
+    "standartFirstDuration": "15",
+    "standartFirstCost": "5.999 $",
+    "standartSecondDuration": "30",
+    "standartSecondCost": "8.999 $",
+    "standartThirdDuration": "60",
+    "standartThirdCost": "10 000 $",
+    "premiumFirstDuration": "15",
+    "premiumFirstCost": "5.999 $",
+    "premiumSecondDuration": "30",
+    "premiumSecondCost": "8.999 $",
+    "premiumThirdDuration": "60",
+    "premiumThirdCost": "10 000 $"
   }
-
 }
