@@ -22,7 +22,6 @@
 </template>
 
 <script>
-import projects from "../../../public/data/projects.json";
 import videoModal from "@/components/videoModal";
 
 export default {
@@ -31,7 +30,7 @@ export default {
   },
   data() {
     return {
-      projects: projects,
+      projects: {},
       showMore: false
     };
   },
@@ -43,6 +42,9 @@ export default {
         return this.projects["2dPresentations"].slice(0, 2);
       }
     }
+  },
+  async created() {
+    this.projects = window.projects;
   }
 };
 </script>

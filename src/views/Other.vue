@@ -30,7 +30,6 @@
 
 <script>
 import vueForm from "../components/vueForm";
-import projectsData from "../../public/data/projects";
 import videoModal from "../components/videoModal";
 
 export default {
@@ -41,8 +40,11 @@ export default {
   },
   data() {
     return {
-      projectsData: projectsData
+      projectsData: {}
     };
+  },
+  async created() {
+    this.projectsData = window.projects;
   }
 };
 </script>

@@ -15,7 +15,6 @@ import work from "../../components/work";
 import cost from "../../components/cost";
 import faq from "../../components/faq";
 import vueForm from "../../components/vueForm";
-import projectsData from "../../../public/data/projects.json";
 import projects from "@/views/Home/projects";
 
 export default {
@@ -27,11 +26,6 @@ export default {
     faq,
     vueForm,
     projects
-  },
-  data() {
-    return {
-      projectsData: projectsData
-    };
   }
 };
 </script>

@@ -148,6 +148,7 @@ export default {
   .container {
     display: flex;
     position: relative;
+    justify-content: space-between;
   }
 }
 </style>

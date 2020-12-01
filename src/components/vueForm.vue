@@ -61,15 +61,15 @@
 </template>
 
 <script>
-import config from "../../public/data/config";
 import videoModal from "./videoModal";
+
 export default {
   components: {
     videoModal
   },
   data() {
     return {
-      config: config,
+      config: {},
       name: "",
       phone: "",
       message: "",
@@ -96,6 +96,9 @@ export default {
         mail: this.config.email
       });
     }
+  },
+  async created() {
+    this.config = window.config;
   }
 };
 </script>

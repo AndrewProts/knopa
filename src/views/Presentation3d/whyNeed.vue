@@ -1,8 +1,6 @@
 <template>
   <div class="whyNeed">
-    <div class="title">
-      {{ $t("Why do we need\nanimation presentations?") }}
-    </div>
+    <div class="title">{{ $t("Why do we need\nanimation presentations?") }}</div>
     <div class="row">
       <div class="cel">{{ $t(config["3dPresentations"].whyNeedText) }}</div>
       <div class="cel">
@@ -22,12 +20,15 @@
 </template>
 
 <script>
-import config from "../../../public/data/config.json";
+
 export default {
   data() {
     return {
-      config: config
+      config: {}
     };
+  },
+  async created() {
+    this.config = window.config;
   }
 };
 </script>

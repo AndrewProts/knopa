@@ -90,13 +90,14 @@
 </template>
 
 <script>
-import config from "../../public/data/config.json";
-
 export default {
   data() {
     return {
-      config: config
+      config: {}
     };
+  },
+  async created() {
+    this.config = window.config;
   }
 };
 </script>

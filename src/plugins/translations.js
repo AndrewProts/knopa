@@ -1,9 +1,9 @@
-import translations from "../../public/data/translations";
+window.translations = {};
 
 export default {
   install(Vue) {
     Vue.prototype.$t = slug => {
-      return translations[window.location.pathname.split("/")[1]][slug] || slug;
+      return window.translations[window.location.pathname.split("/")[1]][slug] || slug;
     };
   }
 };

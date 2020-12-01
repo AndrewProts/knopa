@@ -116,6 +116,9 @@ export default {
         return this.projectsData.creatives.slice(0, 6);
       }
     }
+  },
+  async created() {
+    this.whatIncluded = window.whatIncluded;
   }
 };
 </script>
