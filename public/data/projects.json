@@ -31,6 +31,32 @@
       "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
     }
   ],
+  "intro": [
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    },
+    {
+      "name": "someName",
+      "description": "someDescription",
+      "previewImg": "/img/yarek/2.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+    }
+  ],
   "creatives": [
     {
       "name": "someName",

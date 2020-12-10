@@ -19,7 +19,27 @@
     "appCreativeBrief": "https://www.youtube.com",
     "appCreativeVideo": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg",
     "videoSetNumber": 30,
-    "videoSetPercent": "10%"
+    "videoSetPercent": "10%",
+    "workSteps": [
+      "workList1",
+      "workList2",
+      "workList3",
+      "workList4",
+      "workList5"
+    ]
+  },
+  "intro": {
+    "img2d": "/img/2dintro.jpg",
+    "cost2d": "8.999 $",
+    "brief2d": "https://www.youtube.com",
+    "img3d": "/img/3dintro.jpg",
+    "cost3d": "8.999 $",
+    "brief3d": "https://www.youtube.com",
+    "workSteps": [
+      "step 1",
+      "step 2",
+      "step 3"
+    ]
   },
   "3dPresentations": {
     "howWorkGoingList": [

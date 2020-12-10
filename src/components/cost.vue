@@ -40,8 +40,15 @@
               <span>{{ config["2dPresentations"].standartThirdCost }}</span>
             </div>
           </div>
-          <div class="button">{{ $t("orderVideo") }}</div>
-          <div class="see">{{ $t("viewExample") }}</div>
+          <a :href="config.creatives.accountCreativeBrief" target="_blank">
+            <div class="button">{{ $t("orderVideo") }}</div>
+          </a>
+          <div
+              class="see"
+              @click="$refs.modal.open(config.creatives.accountCreativeVideo)"
+          >
+            {{ $t("viewExample") }}
+          </div>
         </div>
         <div class="card">
           <div class="head">Premium <icon-curve-2></icon-curve-2></div>
@@ -81,16 +88,29 @@
               <span>{{ config["2dPresentations"].premiumThirdCost }}</span>
             </div>
           </div>
-          <div class="button">{{ $t("orderVideo") }}</div>
-          <div class="see">{{ $t("viewExample") }}</div>
+          <a :href="config.creatives.appCreativeBrief" target="_blank">
+            <div class="button">{{ $t("orderVideo") }}</div>
+          </a>
+          <div
+            class="see"
+            @click="$refs.modal.open(config.creatives.appCreativeVideo)"
+          >
+            {{ $t("viewExample") }}
+          </div>
         </div>
       </div>
     </div>
+    <video-modal ref="modal"></video-modal>
   </div>
 </template>
 
 <script>
+import videoModal from "@/components/videoModal";
+
 export default {
+  components: {
+    videoModal
+  },
   data() {
     return {
       config: {}

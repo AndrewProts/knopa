@@ -2,9 +2,8 @@
   <div class="container">
     <div class="work">
       <div class="col">
-        <div class="title">{{ $t("workTitle") }}</div>
-        <div class="text">{{ $t("workText") }}</div>
-        <a :href="config.creatives.accountCreativeBrief" target="_blank">
+        <div class="title">{{ $t("How is the work on the intro going?") }}</div>
+        <a :href="config.intro.brief2d" target="_blank">
           <div class="button outline">{{ $t("orderVideo") }}</div>
         </a>
         <icon-star class="star star1"></icon-star>
@@ -12,7 +11,7 @@
       <div class="col">
         <div class="list">
           <div
-            v-for="(item, i) in config.creatives.workSteps"
+            v-for="(item, i) in config.intro.workSteps"
             :key="i"
             class="item"
           >

@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home/Home.vue";
+import Intro from "@/views/Intro/Intro";
 import Other from "../views/Other.vue";
 import Presentations3d from "../views/Presentation3d/Presentations3d.vue";
 import Creatives from "../views/Creatives/Creatives.vue";
@@ -16,6 +17,11 @@ const routes = [
   {
     path: "/",
     redirect: "/ru"
+  },
+  {
+    path: "/:lang/intro",
+    name: "Intro",
+    component: Intro
   },
   {
     path: "/:lang/other",

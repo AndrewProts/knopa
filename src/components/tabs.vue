@@ -5,13 +5,16 @@
         <div class="tab" @click="setLine(0, 'Home')">
           {{ $t("2D presentations") }}
         </div>
-        <div class="tab" @click="setLine(1, 'Presentations3d')">
+        <div class="tab" @click="setLine(1, 'Intro')">
+          {{ $t("Intro") }}
+        </div>
+        <div class="tab" @click="setLine(2, 'Presentations3d')">
           {{ $t("3D presentations") }}
         </div>
-        <div class="tab" @click="setLine(2, 'Creatives')">
+        <div class="tab" @click="setLine(3, 'Creatives')">
           {{ $t("creatives") }}
         </div>
-        <div class="tab" @click="setLine(3, 'Other')">
+        <div class="tab" @click="setLine(4, 'Other')">
           {{ $t("other") }}
         </div>
       </div>
