@@ -21,6 +21,17 @@
       <how-work></how-work>
       <why-need></why-need>
       <price></price>
+      <div class="container">
+        <div class="contains">
+          <div class="title">{{ $t("WhatIncluded") }}</div>
+          <div class="items">
+            <div v-for="(item, i) in whatIncluded" :key="i" class="item">
+              <component :is="item.icon"></component>
+              {{ $t(item.name) }}
+            </div>
+          </div>
+        </div>
+      </div>
       <faq></faq>
     </div>
     <vue-form></vue-form>
@@ -48,11 +59,15 @@ export default {
   },
   data() {
     return {
-      projectsData: {}
+      projectsData: {},
+      whatIncluded: {},
+      config: {}
     };
   },
   async created() {
     this.projectsData = window.projects;
+    this.whatIncluded = window.whatIncluded;
+    this.config = window.config;
   }
 };
 </script>
@@ -60,6 +75,37 @@ export default {
 <style lang="scss">
 .presentations3d {
   width: 100%;
+  .contains {
+    display: flex;
+    flex-direction: column;
+    margin-top: 183px;
+    margin-bottom: 134px;
+    .items {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .item {
+        display: flex;
+        flex-direction: column;
+        svg {
+          margin-bottom: 24px;
+          width: 32px;
+          path {
+            fill: $blue;
+          }
+        }
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 145%;
+      }
+    }
+    .title {
+      font-weight: bold;
+      font-size: 45px;
+      line-height: 55px;
+      margin-bottom: 58px;
+    }
+  }
   .projects {
     width: 100%;
     color: $gray;

@@ -1,101 +1,125 @@
 {
   "phone": "+389 403 349 34",
-  "email": "knopa@gmail.com",
-  "instagram": "https://www.instagram.com/",
-  "facebook": "https://www.facebook.com/",
-  "youtube": "https://www.youtube.com/",
-  "vimeo": "https://vimeo.com/",
+  "email": "knopastudio@gmail.com",
+  "instagram": "https://forms.gle/7DSsmeinB3sS4faY9",
+  "facebook": "https://forms.gle/7DSsmeinB3sS4faY9",
+  "youtube": "https://forms.gle/7DSsmeinB3sS4faY9",
+  "vimeo": "https://forms.gle/7DSsmeinB3sS4faY9",
   "telegram": "http://telegram.me/",
-  "whatsapp": "https://www.whatsapp.com/",
+  "whatsapp": "https://forms.gle/7DSsmeinB3sS4faY9",
   "viber": "https://www.viber.com/",
-  "aboutUsVideo": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg",
-  "aboutUsImg": "/img/yarek/3.jpg",
-  "briefUrl": "https://www.youtube.com/",
+  "aboutUsImg": "/img/321321.jpg",
+  "briefUrl": "https://forms.gle/7DSsmeinB3sS4faY9",
+  "showReel": "https://www.youtube.com/embed/gFgLCBLiO0k",
+  "aboutUsVideo": "https://www.youtube.com/embed/gFgLCBLiO0k",
   "creatives": {
-    "accountCreativePrice": "235$",
-    "accountCreativeBrief": "https://www.youtube.com",
+    "accountCreativePrice": "от 40$",
+    "accountCreativeBrief": "https://forms.gle/7DSsmeinB3sS4faY9",
     "accountCreativeVideo": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg",
-    "appCreativePrice": "300$",
-    "appCreativeBrief": "https://www.youtube.com",
+    "appCreativePrice": "от 60$",
+    "appCreativeBrief": "https://forms.gle/7DSsmeinB3sS4faY9",
     "appCreativeVideo": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg",
-    "videoSetNumber": 30,
-    "videoSetPercent": "10%",
+    "videoSetNumber": "",
+    "videoSetPercent": "",
+    "whyNeedText": "Сотрудничество с нами принесет агентству прибыль,покупателю высокие показатели,а ПМ компортную работу.\n\nМы поможем снизить нагрузку на штатных аниматоров и возьмем на себя ведение крутых проектов которые взорвут CTR!\n\nЗа нашими плечами опытная команда,более 300 проектов за несколько месяцев,креативное мышление и удачные решения поставленых задач.\n\nЕсли вас заинтересовало сотрудничество с нами - ждем ваше сообщение на нашей почте!)",
     "workSteps": [
       "workList1",
       "workList2",
       "workList3",
       "workList4",
       "workList5"
+    ],
+    "whyNeedItems": [
+      {
+        "icon": "IconChart",
+        "text": "Increase\nsales by 3-4 times1"
+      },
+      {
+        "icon": "IconChart",
+        "text": "Increase\nsales by 3-4 times2"
+      },
+      {
+        "icon": "IconChart",
+        "text": "Increase\nsales by 3-4 times3"
+      },
+      {
+        "icon": "IconChart",
+        "text": "Increase\nsales by 3-4 times4"
+      }
     ]
   },
   "intro": {
     "img2d": "/img/2dintro.jpg",
-    "cost2d": "8.999 $",
-    "brief2d": "https://www.youtube.com",
+    "cost2d": "100 $",
+    "brief2d": "https://forms.gle/7DSsmeinB3sS4faY9",
     "img3d": "/img/3dintro.jpg",
-    "cost3d": "8.999 $",
-    "brief3d": "https://www.youtube.com",
+    "cost3d": "200 $",
+    "brief3d": "https://forms.gle/7DSsmeinB3sS4faY9",
     "workSteps": [
-      "step 1",
-      "step 2",
-      "step 3"
+      "Без брифа обсуждаем будущую анимацию",
+      "Делаем эскиз анимации",
+      "Дорабатываем анимацию логотипа"
     ]
   },
   "3dPresentations": {
     "howWorkGoingList": [
       {
         "name": "Textures",
-        "description": "sliderSubTitle"
+        "description": "Text 1",
+        "img": "/img/2-min.jpg"
       },
       {
         "name": "Working with light",
-        "description": "sliderSubTitle"
+        "description": "Text 2",
+        "img": "/img/3d-1.jpg"
       },
       {
         "name": "Texture development",
-        "description": "sliderSubTitle"
+        "description": "Text 3",
+        "img": "/img/3d-2.jpg"
       },
       {
         "name": "Working with light",
-        "description": "sliderSubTitle"
+        "description": "Text 4",
+        "img": "/img/3-min.jpg"
       }
     ],
-    "howWorkGoingImg": "/img/yarek/3.jpg",
+    "howWorkGoingImg": "/img/3d-2.jpg",
     "whyNeedText": "whyNeedText",
     "whyNeedItems": [
       {
         "icon": "IconChart",
-        "text": "Increase\nsales by 3-4 times"
+        "text": "Increase\nsales by 3-4 times1"
       },
       {
         "icon": "IconChart",
-        "text": "Increase\nsales by 3-4 times"
+        "text": "Increase\nsales by 3-4 times2"
       },
       {
         "icon": "IconChart",
-        "text": "Increase\nsales by 3-4 times"
+        "text": "Increase\nsales by 3-4 times3"
       },
       {
         "icon": "IconChart",
-        "text": "Increase\nsales by 3-4 times"
+        "text": "Increase\nsales by 3-4 times4"
       }
     ],
     "priceExampleVideo": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg",
-    "priceBrief": "https://www.youtube.com",
-    "priceFrom": "5.999 $"
+    "priceBrief": "https://forms.gle/7DSsmeinB3sS4faY9",
+    "priceFrom": "1000+ $"
   },
   "2dPresentations": {
     "standartFirstDuration": "15",
-    "standartFirstCost": "5.999 $",
+    "standartFirstCost": "100 $",
     "standartSecondDuration": "30",
-    "standartSecondCost": "8.999 $",
+    "standartSecondCost": "180 $",
     "standartThirdDuration": "60",
-    "standartThirdCost": "10 000 $",
+    "standartThirdCost": "250 $",
     "premiumFirstDuration": "15",
-    "premiumFirstCost": "5.999 $",
+    "premiumFirstCost": "250 $",
     "premiumSecondDuration": "30",
-    "premiumSecondCost": "8.999 $",
+    "premiumSecondCost": "500 $",
     "premiumThirdDuration": "60",
-    "premiumThirdCost": "10 000 $"
+    "premiumThirdCost": "700 $"
   }
 }

@@ -1,158 +1,128 @@
 {
   "2dPresentations": [
     {
-      "name": "someName",
-      "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "name": "someName1",
+      "description": "someDescription1",
+      "previewImg": "/img/111.jpg",
+      "videoUrl": "https://www.youtube.com/embed/L9Uv8HnWsHA"
     },
     {
-      "name": "someName",
-      "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-    },
-    {
-      "name": "someName",
-      "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-    },
-    {
-      "name": "someName",
-      "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-    },
-    {
-      "name": "someName",
-      "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "name": "someName2",
+      "description": "someDescription2",
+      "previewImg": "/img/3-min.jpg",
+      "videoUrl": "https://www.youtube.com/embed/elRI-0VdTAQ"
     }
   ],
   "intro": [
     {
-      "name": "someName",
-      "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "name": "MOKA",
+      "description": "Анимация в которой мы показали многолетнюю историю компании и запоминающегося персонажа",
+      "previewImg": "/img/4-min.jpg",
+      "videoUrl": "https://www.youtube.com/embed/QlUJ7KCPRNs"
     },
     {
-      "name": "someName",
-      "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "name": "WOMEN`S STORIES",
+      "description": "Анимация логотипа для ютуб подкаста про женские истории",
+      "previewImg": "/img/9-min.jpg",
+      "videoUrl": "https://www.youtube.com/embed/H8JGk04mEDg"
     },
     {
-      "name": "someName",
-      "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "name": "Study Link Intro",
+      "description": "Анимация интро для уроков детской школы программирования",
+      "previewImg": "/img/6-min.jpg",
+      "videoUrl": "https://www.youtube.com/embed/CUdkfVlTaSc"
     },
     {
-      "name": "someName",
-      "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "name": "Study Link Outro",
+      "description": "Анимация которая использовалась во время ожидания на прямых трансляциях",
+      "previewImg": "/img/7-min.jpg",
+      "videoUrl": "https://www.youtube.com/embed/cvT8TvhNVWk"
     }
   ],
   "creatives": [
     {
-      "name": "someName",
+      "name": "FitInGo",
       "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "previewImg": "/img/creos/1-min.jpg",
+      "videoUrl": "https://www.youtube.com/embed/MXsKKGFB9-w"
     },
     {
-      "name": "someName",
+      "name": "Doorman Story",
       "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "previewImg": "/img/creos/2-min.jpg",
+      "videoUrl": "https://www.youtube.com/embed/gmsj0qxRF5A"
     },
     {
-      "name": "someName",
+      "name": "Novels",
       "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "previewImg": "/img/creos/3-min.jpg",
+      "videoUrl": "https://www.youtube.com/embed/-t7-taeqB18"
     },
     {
-      "name": "someName",
+      "name": "Maybe",
       "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "previewImg": "/img/creos/4-min.jpg",
+      "videoUrl": "https://www.youtube.com/embed/1JpGpXug5QU"
     },
     {
-      "name": "someName",
+      "name": "Current",
       "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "previewImg": "/img/creos/5-min.jpg",
+      "videoUrl": "https://www.youtube.com/embed/X-j9pwial8E"
     },
     {
-      "name": "someName",
+      "name": "Doorman Story",
       "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "previewImg": "/img/creos/6-min.jpg",
+      "videoUrl": "https://www.youtube.com/embed/_DYLeRl6Z7Y"
     },
     {
-      "name": "someName",
+      "name": "Doorman Story",
       "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "previewImg": "/img/creos/7-min.jpg",
+      "videoUrl": "https://www.youtube.com/embed/PtRfiM7kb50"
     },
     {
-      "name": "someName",
+      "name": "Doorman Story",
       "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-    },
-    {
-      "name": "someName",
-      "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
-    },
-    {
-      "name": "someName",
-      "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "previewImg": "/img/creos/8-min.jpg",
+      "videoUrl": "https://www.youtube.com/embed/yIl-82Kdzhg"
     }
   ],
   "3dPresentations": [
     {
-      "name": "someName",
+      "name": "НАПРАВЛЕНИЕ/ПРОЕКТ НАХОДИТСЯ В РАЗРАБОТКЕ",
       "description": "someDescription",
-      "previewImg": "/img/yarek/2.jpg",
-      "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
+      "previewImg": "/img/3d-1.jpg",
+      "videoUrl": "https://www.youtube.com/embed/gFgLCBLiO0k"
     }
   ],
   "other": [
     {
       "name": "someName",
       "description": "someDescription",
-      "contactLink": "https://rt.pornhub.com/",
+      "contactLink": "https://www.youtube.com/embed/elRI-0VdTAQ",
       "previewImg": "/img/yarek/1.jpg",
       "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
     },
     {
       "name": "someName",
       "description": "someDescription",
-      "contactLink": "https://rt.pornhub.com/",
+      "contactLink": "https://www.youtube.com/embed/elRI-0VdTAQ",
       "previewImg": "/img/yarek/1.jpg",
       "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
     },
     {
       "name": "someName",
       "description": "someDescription",
-      "contactLink": "https://rt.pornhub.com/",
+      "contactLink": "https://www.youtube.com/embed/elRI-0VdTAQ",
       "previewImg": "/img/yarek/1.jpg",
       "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
     },
     {
       "name": "someName",
       "description": "someDescription",
-      "contactLink": "https://rt.pornhub.com/",
+      "contactLink": "https://www.youtube.com/embed/elRI-0VdTAQ",
       "previewImg": "/img/yarek/1.jpg",
       "videoUrl": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg"
     }

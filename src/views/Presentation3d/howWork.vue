@@ -17,7 +17,7 @@
       </div>
     </div>
     <div class="right">
-      <img :src="config['3dPresentations'].howWorkGoingImg" alt="alt" />
+      <img :src="imgBg" alt="alt" />
     </div>
   </div>
 </template>
@@ -30,6 +30,14 @@ export default {
       config: {},
       currentItem: null
     };
+  },
+  computed: {
+    imgBg() {
+      if (this.currentItem !== null) {
+        return this.config["3dPresentations"].howWorkGoingList[this.currentItem].img;
+      }
+      return this.config["3dPresentations"].howWorkGoingImg;
+    }
   },
   async created() {
     this.config = window.config;

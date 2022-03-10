@@ -9,7 +9,10 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background-image: url("/img/bg.jpg");
+  background-image: url("/img/bgBalls.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .container {

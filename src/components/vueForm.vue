@@ -15,35 +15,37 @@
           <div class="item">
             <div>{{ $t("weInSocials") }}</div>
             <div class="socialLinks">
-              <a v-if="config.youtube" :href="config.youtube" target="_blank">
-                <icon-youtube></icon-youtube>
+              <a v-if="config.telegram" :href="config.telegram" target="_blank">
+                <icon-telegram></icon-telegram>
+              </a>
+              <a v-if="config.viber" :href="config.viber" target="_blank">
+                <icon-viber></icon-viber>
+              </a>
+              <a v-if="config.linkedIn" :href="config.linkedIn" target="_blank">
+                <icon-linkedIn></icon-linkedIn>
               </a>
               <a v-if="config.vimeo" :href="config.vimeo" target="_blank">
                 <icon-vimeo></icon-vimeo>
               </a>
-              <a
-                v-if="config.instagram"
-                :href="config.instagram"
-                target="_blank"
-              >
-                <icon-instagram></icon-instagram>
+              <a v-if="config.upwork" :href="config.upwork" target="_blank">
+                <icon-upwork></icon-upwork>
               </a>
             </div>
           </div>
         </div>
         <div class="socials">
-          <a v-if="config.facebook" :href="config.facebook" target="_blank">
-            <icon-facebook></icon-facebook>
-          </a>
-          <a v-if="config.telegram" :href="config.telegram" target="_blank">
-            <icon-telegram></icon-telegram>
-          </a>
-          <a v-if="config.whatsapp" :href="config.whatsapp" target="_blank">
-            <icon-watsup></icon-watsup>
-          </a>
-          <a v-if="config.viber" :href="config.viber" target="_blank">
-            <icon-viber></icon-viber>
-          </a>
+<!--          <a v-if="config.facebook" :href="config.facebook" target="_blank">-->
+<!--            <icon-facebook></icon-facebook>-->
+<!--          </a>-->
+<!--          <a v-if="config.telegram" :href="config.telegram" target="_blank">-->
+<!--            <icon-telegram></icon-telegram>-->
+<!--          </a>-->
+<!--          <a v-if="config.whatsapp" :href="config.whatsapp" target="_blank">-->
+<!--            <icon-watsup></icon-watsup>-->
+<!--          </a>-->
+<!--          <a v-if="config.viber" :href="config.viber" target="_blank">-->
+<!--            <icon-viber></icon-viber>-->
+<!--          </a>-->
         </div>
         <a :href="config.briefUrl" target="_blank">
           <div class="button outline">{{ $t("fillBrief") }}</div>

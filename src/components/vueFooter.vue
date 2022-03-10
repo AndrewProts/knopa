@@ -6,15 +6,20 @@
         <div>{{ $t("logoText") }}o</div>
       </div>
       <div class="links">
-        <div class="link">{{ $t("creatives") }}</div>
-        <div class="link">{{ $t("2D presentations") }}</div>
-        <div class="link">{{ $t("other") }}</div>
-        <div class="lang">
-          <a href="/ru" @click.prevent="changeLanguage('ru')">Rus</a>
-          <span>/</span>
-          <a href="/en" @click.prevent="changeLanguage('en')">Eng</a>
-        </div>
-        <div class="button outline">{{ $t("order") }}</div>
+<!--        <div class="link">{{ $t("creatives") }}</div>-->
+<!--        <div class="link">{{ $t("2D presentations") }}</div>-->
+<!--        <div class="link">{{ $t("other") }}</div>-->
+<!--        <div class="lang">-->
+<!--          <a href="/ru" @click.prevent="changeLanguage('ru')">Rus</a>-->
+<!--          <span>/</span>-->
+<!--          <a href="/en" @click.prevent="changeLanguage('en')">Eng</a>-->
+<!--        </div>-->
+        <a
+            :href="config['3dPresentations'].priceBrief"
+            target="_blank"
+            class="button outline"
+        >{{ $t("order") }}</a
+        >
       </div>
     </div>
   </div>
@@ -22,6 +27,14 @@
 
 <script>
 export default {
+  data() {
+    return {
+      config: {}
+    };
+  },
+  async created() {
+    this.config = window.config;
+  },
   methods: {
     changeLanguage(lang) {
       if (lang === this.$route.params.lang) return;
