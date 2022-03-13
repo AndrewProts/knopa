@@ -20,6 +20,7 @@
       </div>
       <how-work></how-work>
       <why-need></why-need>
+      <we-can></we-can>
       <price></price>
       <faq></faq>
     </div>
@@ -35,6 +36,7 @@ import howWork from "./howWork";
 import faq from "@/components/faq";
 import whyNeed from "./whyNeed";
 import price from "@/views/Presentation3d/price";
+import weCan from "./weCan";
 
 export default {
   name: "Home",
@@ -44,7 +46,8 @@ export default {
     howWork,
     faq,
     whyNeed,
-    price
+    price,
+    weCan
   },
   data() {
     return {
