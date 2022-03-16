@@ -115,7 +115,7 @@ export default {
     &1 {
       left: -72px;
       width: 30px;
-      top: -15px;
+      top: 120%;
     }
 
     &2 {
