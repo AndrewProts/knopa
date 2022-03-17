@@ -18,6 +18,10 @@
   position: relative;
   transition: 0.3s ease-in-out;
   border: 1px solid $blue;
+  @media screen and (max-width: 1110px){
+    padding: 0 14px;
+    height: 46px;
+  }
   &:hover {
     color: $blue;
     background-color: white;

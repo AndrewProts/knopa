@@ -68,7 +68,10 @@ export default {
   display: flex;
   align-items: center;
   color: $gray;
-
+  @media screen and (max-width: 1110px){
+    height: auto;
+    padding: 40px 0 120px 0;
+  }
   .animText {
     .animTextPhrases {
       position: relative;
@@ -130,6 +133,10 @@ export default {
       width: 28px;
       top: -84px;
       animation-delay: -2s;
+      @media screen and (max-width: 1110px){
+        top: 50px;
+        right: 60px;
+      }
     }
 
     &4 {
@@ -156,6 +163,9 @@ export default {
       left: 50%;
       top: calc(100% + 15px);
       transform: translate(-50%, 0);
+      @media screen and (max-width: 1110px){
+        display: none;
+      }
     }
   }
 
@@ -165,6 +175,10 @@ export default {
     line-height: 67px;
     margin-bottom: 43px;
     margin-top: 18px;
+    @media screen and (max-width: 1110px){
+      font-size: 46px;
+      line-height: 50px;
+    }
 
     .name {
       color: $blue;

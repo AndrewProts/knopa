@@ -1,6 +1,6 @@
 <template>
   <div class="whyNeed">
-    <div class="title">{{ $t("Why do we need\nanimation presentations?") }}</div>
+    <div class="title">{{ $t("whyNeedPresentations") }}</div>
     <div class="row">
       <div class="cel">{{ $t(config["3dPresentations"].whyNeedText) }}</div>
       <div class="cel">
@@ -38,6 +38,9 @@ export default {
   width: 100%;
   margin-bottom: 160px;
   color: $gray;
+  @media screen and (max-width: 1110px){
+    margin-bottom: 60px;
+  }
   .grid {
     width: 100%;
     display: flex;
@@ -49,6 +52,15 @@ export default {
       font-weight: bold;
       font-size: 16px;
       line-height: 145%;
+      @media screen and (max-width: 1110px){
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        padding: 0 20%;
+        &:nth-child(n + 1) {
+          margin-top: 60px;
+        }
+      }
       &:nth-child(n + 3) {
         margin-top: 60px;
       }
@@ -67,14 +79,24 @@ export default {
   .row {
     width: 100%;
     display: flex;
+    @media screen and (max-width: 1110px){
+      flex-direction: column;
+    }
   }
   .cel {
     width: 50%;
     display: flex;
     flex-direction: column;
     white-space: pre-wrap;
+    @media screen and (max-width: 1110px){
+      width: 100%;
+    }
     &:first-child {
       padding-right: 100px;
+      @media screen and (max-width: 1110px){
+        padding-right: 0;
+        margin-bottom: 60px;
+      }
     }
   }
 }

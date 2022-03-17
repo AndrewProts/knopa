@@ -82,14 +82,29 @@ export default {
     display: flex;
     flex-direction: column;
     margin-top: 183px;
-    margin-bottom: 134px;
+    margin-bottom: 184px;
+    @media screen and (max-width: 1110px){
+      margin: 60px 0;
+    }
     .items {
       width: 100%;
       display: flex;
       justify-content: space-between;
+      @media screen and (max-width: 1110px){
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+      }
       .item {
         display: flex;
         flex-direction: column;
+        @media screen and (max-width: 1110px){
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+          margin-bottom: 20px;
+          padding: 0 20%;
+        }
         svg {
           margin-bottom: 24px;
           width: 32px;
@@ -113,6 +128,9 @@ export default {
     width: 100%;
     color: $gray;
     margin-bottom: 160px;
+    @media screen and (max-width: 1110px){
+      margin-bottom: 60px;
+    }
     .title {
       font-weight: bold;
       font-size: 45px;

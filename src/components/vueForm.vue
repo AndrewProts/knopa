@@ -172,6 +172,9 @@ export default {
     &:hover {
       path {
         fill: $blue;
+        &.text {
+          fill: white;
+        }
       }
     }
     path {
@@ -193,10 +196,16 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    @media screen and (max-width: 1110px){
+      width: 100%;
+    }
   }
   .right {
     width: 531px;
     position: relative;
+    @media screen and (max-width: 1110px){
+      display: none;
+    }
     .img {
       width: 628px;
       height: 425px;
@@ -244,6 +253,9 @@ export default {
   .contacts {
     display: flex;
     padding-top: 30px;
+    @media screen and (max-width: 1110px) {
+      flex-direction: column;
+    }
     .item {
       display: flex;
       flex-direction: column;
@@ -267,6 +279,10 @@ export default {
       }
       & + .item {
         margin-left: 46px;
+        @media screen and (max-width: 1110px) {
+          margin-left: 0;
+          margin-top: 10px;
+        }
       }
     }
   }

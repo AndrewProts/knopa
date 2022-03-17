@@ -51,6 +51,10 @@ export default {
   margin-bottom: 160px;
   color: $gray;
   display: flex;
+  @media screen and (max-width: 1110px){
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
   img {
     width: 100%;
     height: 425px;
@@ -113,6 +117,14 @@ export default {
     width: 50%;
     display: flex;
     flex-direction: column;
+    @media screen and (max-width: 1110px){
+      width: 100%;
+    }
+  }
+  .left {
+    @media screen and (max-width: 1110px){
+      margin-bottom: 30px;
+    }
   }
 }
 </style>

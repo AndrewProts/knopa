@@ -3,7 +3,7 @@
     <div class="container wide">
       <div class="logo">
         <div>{{ $t("siteName") }}</div>
-        <div>{{ $t("logoText") }}o</div>
+        <div>{{ $t("logoText") }}</div>
       </div>
       <div class="links">
 <!--        <div class="link">{{ $t("creatives") }}</div>-->

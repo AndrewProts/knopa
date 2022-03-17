@@ -43,6 +43,10 @@ export default {
     z-index: 10000;
     width: 920px;
     height: 517px;
+    @media screen and (max-width: 1110px){
+      width: 320px;
+      height: 240px;
+    }
   }
   .bg {
     position: absolute;

@@ -1,7 +1,6 @@
 <template>
   <div class="price">
-    <div class="title">
-      {{ $t("howMuchCost") }}
+    <div class="title">{{ $t("howMuchCost") }}
     </div>
     <div class="box">
       <div class="left">
@@ -61,6 +60,9 @@ export default {
   flex-direction: column;
   width: 100%;
   margin-bottom: 160px;
+  @media screen and (max-width: 1110px){
+    margin-bottom: 60px;
+  }
   .box {
     width: 100%;
     border: 1px solid rgba(58, 0, 222, 0.15);
@@ -71,9 +73,18 @@ export default {
     align-items: center;
     align-content: center;
     padding: 40px 80px;
+    @media screen and (max-width: 1110px){
+      height: auto;
+      flex-direction: column;
+      padding: 40px;
+    }
     .mid {
       padding: 0 40px;
       max-width: 360px;
+      @media screen and (max-width: 1110px){
+        max-width: 100%;
+        margin: 20px 0;
+      }
       .text {
         font-weight: normal;
         font-size: 14px;
@@ -97,6 +108,12 @@ export default {
       }
     }
     .right {
+      @media screen and (max-width: 1110px){
+        display: flex;
+        div {
+          margin: 0 10px;
+        }
+      }
       .outline {
         margin-bottom: 20px;
       }
@@ -105,12 +122,19 @@ export default {
       flex-direction: column;
       display: flex;
       align-items: center;
+      @media screen and (max-width: 1110px){
+        white-space: nowrap;
+      }
       span {
         font-weight: bold;
         font-size: 30px;
         line-height: 37px;
         color: black;
         margin-bottom: 10px;
+        @media screen and (max-width: 1110px){
+          white-space: nowrap;
+          font-size: 24px;
+        }
       }
     }
   }

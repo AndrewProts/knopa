@@ -8,16 +8,45 @@
   "telegram": "http://telegram.me/",
   "whatsapp": "https://forms.gle/7DSsmeinB3sS4faY9",
   "viber": "https://www.viber.com/",
+  "linkedIn": "https://www.viber.com/",
+  "upwork": "https://www.viber.com/",
   "aboutUsImg": "/img/321321.jpg",
-  "briefUrl": "https://forms.gle/7DSsmeinB3sS4faY9",
-  "showReel": "https://www.youtube.com/embed/gFgLCBLiO0k",
-  "aboutUsVideo": "https://www.youtube.com/embed/gFgLCBLiO0k",
+  "briefUrl": "https://forms.gle/pmvQP3koSTde7hxX9",
+  "showReel": "https://www.youtube.com/embed/sxtFgZuYmO0",
+  "aboutUsVideo": "https://www.youtube.com/embed/sxtFgZuYmO0",
+  "slider": [
+    {
+      "title": "Title1",
+      "text": "Text1",
+      "image": "/img/yarek/3.jpg"
+    },
+    {
+      "title": "Title2",
+      "text": "Text2",
+      "image": "/img/yarek/3.jpg"
+    },
+    {
+      "title": "Title3",
+      "text": "Text3",
+      "image": "/img/yarek/3.jpg"
+    },
+    {
+      "title": "Title4",
+      "text": "Text4",
+      "image": "/img/yarek/3.jpg"
+    },
+    {
+      "title": "Title5",
+      "text": "Text5",
+      "image": "/img/yarek/3.jpg"
+    }
+  ],
   "creatives": {
     "accountCreativePrice": "от 40$",
-    "accountCreativeBrief": "https://forms.gle/7DSsmeinB3sS4faY9",
+    "accountCreativeBrief": "https://forms.gle/pmvQP3koSTde7hxX9",
     "accountCreativeVideo": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg",
     "appCreativePrice": "от 60$",
-    "appCreativeBrief": "https://forms.gle/7DSsmeinB3sS4faY9",
+    "appCreativeBrief": "https://forms.gle/pmvQP3koSTde7hxX9",
     "appCreativeVideo": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg",
     "videoSetNumber": "",
     "videoSetPercent": "",
@@ -51,10 +80,10 @@
   "intro": {
     "img2d": "/img/2dintro.jpg",
     "cost2d": "100 $",
-    "brief2d": "https://forms.gle/7DSsmeinB3sS4faY9",
+    "brief2d": "https://forms.gle/pmvQP3koSTde7hxX9",
     "img3d": "/img/3dintro.jpg",
     "cost3d": "200 $",
-    "brief3d": "https://forms.gle/7DSsmeinB3sS4faY9",
+    "brief3d": "https://forms.gle/pmvQP3koSTde7hxX9",
     "workSteps": [
       "Без брифа обсуждаем будущую анимацию",
       "Делаем эскиз анимации",
@@ -64,27 +93,32 @@
   "3dPresentations": {
     "howWorkGoingList": [
       {
-        "name": "Textures",
+        "name": "list of scenarios",
         "description": "Text 1",
         "img": "/img/2-min.jpg"
       },
       {
-        "name": "Working with light",
+        "name": "creating sketches",
         "description": "Text 2",
         "img": "/img/3d-1.jpg"
       },
       {
-        "name": "Texture development",
+        "name": "storyboard",
         "description": "Text 3",
         "img": "/img/3d-2.jpg"
       },
       {
-        "name": "Working with light",
+        "name": "animation",
         "description": "Text 4",
         "img": "/img/3-min.jpg"
+      },
+      {
+        "name": "resizes and collect files",
+        "description": "Text 3",
+        "img": "/img/3d-2.jpg"
       }
     ],
-    "howWorkGoingImg": "/img/3d-2.jpg",
+    "howWorkGoingImg": "/img/2-min.jpg",
     "whyNeedText": "whyNeedText",
     "whyNeedItems": [
       {
@@ -105,8 +139,8 @@
       }
     ],
     "priceExampleVideo": "https://www.youtube-nocookie.com/embed/jvJjZYWyyjg",
-    "priceBrief": "https://forms.gle/7DSsmeinB3sS4faY9",
-    "priceFrom": "1000+ $"
+    "priceBrief": "https://forms.gle/pmvQP3koSTde7hxX9",
+    "priceFrom": "50$"
   },
   "2dPresentations": {
     "standartFirstDuration": "15",

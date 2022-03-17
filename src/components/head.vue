@@ -71,6 +71,9 @@ export default {
     align-items: center;
     margin-right: 60px;
     cursor: pointer;
+    @media screen and (max-width: 1110px){
+      margin-right: 20px;
+    }
     svg {
       margin-right: 10px;
     }

@@ -2,9 +2,7 @@
   <div class="container">
     <div class="faqTitle">
       <div>{{ $t("hasQuestions") }}</div>
-      <p>
-        {{ $t("faqText") }}
-      </p>
+      <p>{{ $t("faqText") }}</p>
     </div>
     <div class="faq">
       <div v-for="(item, i) in faq" :key="i" class="item">
@@ -45,6 +43,10 @@ export default {
   justify-content: space-between;
   width: 100%;
   color: $gray;
+  @media screen and (max-width: 1110px){
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
   div {
     font-weight: bold;
     font-size: 45px;
@@ -57,6 +59,11 @@ export default {
     line-height: 160%;
     padding-right: 100px;
     padding-top: 10px;
+    @media screen and (max-width: 1110px){
+      padding: 0;
+      margin-top: 20px;
+      white-space: initial;
+    }
   }
 }
 .faq {
@@ -64,6 +71,10 @@ export default {
   flex-direction: column;
   margin-bottom: 220px;
   padding-left: 100px;
+  @media screen and (max-width: 1110px){
+    margin-bottom: 60px;
+    padding-left: 0;
+  }
   .item {
     width: 100%;
     display: flex;
